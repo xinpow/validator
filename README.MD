@@ -5,7 +5,7 @@ A simple Python package for validating data based on rules.
 ## Installation
 
 ```
-pip install validator-py
+pip install xinpow-validator
 ```
 
 ## Example Usage
