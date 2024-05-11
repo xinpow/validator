@@ -9,7 +9,7 @@ def validate(datas, rules, errMessage = {}):
             if 'required' not in rules[i] and not datas[i].strip():
                 break
             for rule in rules[i]:
-                status, message = check(i, datas, rule, errMessage[i] if i in errMessage else None)
+                status, message = check(i, datas, rule, errMessage[f"{i}.{rule.split(':')[0]}"] if f"{i}.{rule.split(':')[0]}" in errMessage else None)
                 if status == False:
                     ret.append(message_label(message, i, datas[i]))
     return (not len(ret) > 0), ret
