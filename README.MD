@@ -5,13 +5,13 @@ A simple Python package for validating data based on rules.
 ## Installation
 
 ```
-pip install xinpow-validator
+pip install dict-validator
 ```
 
 ## Example Usage
 
 ```python
-import validator
+import dict-validator as validator
 
 data = {
     "name" : 'xinpow',
