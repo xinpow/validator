@@ -2,12 +2,6 @@
 
 A simple Python package for validating data based on rules.
 
-## Installation
-
-```
-pip install dict-validator
-```
-
 ## Example Usage
 
 ```python
